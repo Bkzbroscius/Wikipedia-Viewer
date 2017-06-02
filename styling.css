@@ -1,0 +1,61 @@
+body {
+  background: rgba(85, 27, 27,0.1); /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, rgba(85, 27, 27,0.1), rgb(149, 216, 48), rgb(85, 107, 47)); /* Safari */
+  background: -o-radial-gradient(circle, rgba(85, 27, 27, 0.1), rgb(149, 216, 48), rgb(85, 107, 47)); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, rgba(85, 27, 27, 0.1),rgb(149, 216, 48), rgb(85, 107, 47)); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, rgba(85, 27, 27), rgb(149, 216, 48, 0.1), rgb(85, 107, 47)); /* Standard syntax */
+  font-family: "ABeeZee", sans-serif;
+}
+
+
+button {
+  background-color: #0000ff;
+  color: #FFFFFF;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+ #submitBut {
+  background: #0000ff;
+  color:white;
+  padding: 20px;
+}
+
+   #submitBut, #searchBut {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   
+}
+
+#data {
+    margin: auto;
+    display: block;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+p {
+   text-align: center;
+   padding-top: 50px;
+  
+}
+
+#searchForArticle {
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 50px;
+    font-size: 1.5em;
+}
+
+

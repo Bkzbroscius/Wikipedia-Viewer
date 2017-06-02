@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wikipedia Viewer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="styling.css" type="text/css" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+<script src="wiki.js"></script>
+<head>
+<body>
+    <div id="getRandomArticle">
+      <h1>Search for Articles on Wikipedia</h1>
+    <form action="https://en.wikipedia.org/wiki/Special:Random" target= "_blank">
+        
+        <input type="submit" value="Click this for a random Wikipedia article" id="submitBut">
+    </form>
+    </div>
+    <div id="searchForArticle">
+     <p><strong>Enter your search value and click the button below to find specific articles. </strong></p>
+      <p><strong>For example, to search for articles about dogs type "dogs" inside the input box.</strong></p>
+      <input type="text" id="data"> 
+     <button id="searchBut">Click here to search for the article</button>
+  </div>
+</body>
+</html>
+    
